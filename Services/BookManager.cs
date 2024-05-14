@@ -5,6 +5,7 @@ using Entities.Models;
 using Entities.RequestFeatures;
 using Repositories.Contracts;
 using Services.Contracts;
+using System.Dynamic;
 
 namespace Services
 {
@@ -12,14 +13,16 @@ namespace Services
     {
         private readonly IRepositoryManager _manager;
         private readonly IMapper _mapper;
+        private readonly IDataShaper<BookDto> _shaper;
 
-        public BookManager(IRepositoryManager manager, IMapper mapper)
-        {
-            _manager = manager;
-            _mapper = mapper;
-        }
+		public BookManager(IRepositoryManager manager, IMapper mapper, IDataShaper<BookDto> shaper)
+		{
+			_manager = manager;
+			_mapper = mapper;
+			_shaper = shaper;
+		}
 
-        public async Task CreateOneBookAsync(BookDto bookDto)
+		public async Task CreateOneBookAsync(BookDto bookDto)
         {
             _manager.BookRepository.Create(_mapper.Map<Book>(bookDto));
             await _manager.SaveAsync();
@@ -31,13 +34,15 @@ namespace Services
             await _manager.SaveAsync();
         }
 
-        public async Task<(IEnumerable<BookDto> books, MetaData metaData)> GetAllBooksAsync(RequestParameters requestParameters, bool trackChanges)
+        public async Task<(IEnumerable<ExpandoObject> books, MetaData metaData)> GetAllBooksAsync(RequestParameters requestParameters, bool trackChanges)
         {
             if(!requestParameters.ValidPriceRange)
                 throw new NotFoundException($"ValidPriceRange is invalid.");
 			var booksWithMetaData = await _manager.BookRepository.GetAllBooksAsync(requestParameters, trackChanges);
             var booksDto = _mapper.Map<IEnumerable<BookDto>>(booksWithMetaData);
-            return (booksDto, booksWithMetaData.MetaData);
+
+            var shapedData = _shaper.ShapeData(booksDto, requestParameters.Fields);
+            return (shapedData, booksWithMetaData.MetaData);
         }
 
         public async Task<BookDto> GetOneBookByIdAsync(int id, bool trackChanges)

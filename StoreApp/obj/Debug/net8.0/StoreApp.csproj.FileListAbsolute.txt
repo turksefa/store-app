@@ -142,3 +142,5 @@ C:\Users\IT\source\repos\StoreApp\StoreApp\bin\Debug\net8.0\Services.dll
 C:\Users\IT\source\repos\StoreApp\StoreApp\bin\Debug\net8.0\Services.pdb
 C:\Users\IT\source\repos\StoreApp\StoreApp\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\IT\source\repos\StoreApp\StoreApp\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\IT\source\repos\StoreApp\StoreApp\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll
+C:\Users\IT\source\repos\StoreApp\StoreApp\obj\Debug\net8.0\StoreApp.sourcelink.json

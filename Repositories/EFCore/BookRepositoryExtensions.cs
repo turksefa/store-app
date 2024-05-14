@@ -38,9 +38,14 @@ namespace Repositories.EFCore
 			foreach ( var param in orderParams ) { 
 				if(string.IsNullOrWhiteSpace(param))
 					continue;
+				
+				var propertyQueryName = param.Split(' ')[0];
+				var objectProperty = propertyInfos.FirstOrDefault(pi => pi.Name.Equals(propertyQueryName));
+				if (objectProperty == null)
+					continue;
 
 				var direction = param.EndsWith(" desc") ? "descending" : "ascending";
-				orderQueryBuilder.Append($"{propertyInfos.FirstOrDefault()?.Name} {direction},");
+				orderQueryBuilder.Append($"{objectProperty.Name.ToString()} {direction},");
 			}
 			var orderQuery = orderQueryBuilder.ToString().TrimEnd(',',' ');
 			return books.OrderBy(orderQuery);

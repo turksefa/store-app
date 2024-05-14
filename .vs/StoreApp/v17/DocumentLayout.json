@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\IT\\source\\repos\\StoreApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CAD44AF-A035-40CF-8750-ACF9DA49AC4F}|Repositories\\Repositories.csproj|c:\\users\\it\\source\\repos\\storeapp\\repositories\\efcore\\bookrepositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CAD44AF-A035-40CF-8750-ACF9DA49AC4F}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\bookrepositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EF4EC4F-3F43-4E4C-80BD-2BC14B54A6D9}|Services\\Services.csproj|c:\\users\\it\\source\\repos\\storeapp\\services\\datashaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF4EC4F-3F43-4E4C-80BD-2BC14B54A6D9}|Services\\Services.csproj|solutionrelative:services\\datashaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF4EC4F-3F43-4E4C-80BD-2BC14B54A6D9}|Services\\Services.csproj|c:\\users\\it\\source\\repos\\storeapp\\services\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF4EC4F-3F43-4E4C-80BD-2BC14B54A6D9}|Services\\Services.csproj|solutionrelative:services\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49346D8B-C1BA-49F7-BA74-6CCA4E2A176F}|Entities\\Entities.csproj|c:\\users\\it\\source\\repos\\storeapp\\entities\\requestfeatures\\requestparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49346D8B-C1BA-49F7-BA74-6CCA4E2A176F}|Entities\\Entities.csproj|solutionrelative:entities\\requestfeatures\\requestparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8CAD44AF-A035-40CF-8750-ACF9DA49AC4F}|Repositories\\Repositories.csproj|c:\\users\\it\\source\\repos\\storeapp\\repositories\\efcore\\bookrepositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAD44AF-A035-40CF-8750-ACF9DA49AC4F}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\bookrepositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF4EC4F-3F43-4E4C-80BD-2BC14B54A6D9}|Services\\Services.csproj|c:\\users\\it\\source\\repos\\storeapp\\services\\contracts\\idatashaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF4EC4F-3F43-4E4C-80BD-2BC14B54A6D9}|Services\\Services.csproj|solutionrelative:services\\contracts\\idatashaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8CAD44AF-A035-40CF-8750-ACF9DA49AC4F}|Repositories\\Repositories.csproj|c:\\users\\it\\source\\repos\\storeapp\\repositories\\efcore\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAD44AF-A035-40CF-8750-ACF9DA49AC4F}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F046772-43D0-4ED9-AF90-E10083E77798}|StoreApp\\StoreApp.csproj|c:\\users\\it\\source\\repos\\storeapp\\storeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F046772-43D0-4ED9-AF90-E10083E77798}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RequestParameters.cs",
               "DocumentMoniker": "C:\\Users\\IT\\source\\repos\\StoreApp\\Entities\\RequestFeatures\\RequestParameters.cs",
               "RelativeDocumentMoniker": "Entities\\RequestFeatures\\RequestParameters.cs",
@@ -34,34 +50,80 @@
               "RelativeToolTip": "Entities\\RequestFeatures\\RequestParameters.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T11:48:22.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T13:14:48.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\IT\\source\\repos\\StoreApp\\Repositories\\EFCore\\BookRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\EFCore\\BookRepository.cs",
-              "ToolTip": "C:\\Users\\IT\\source\\repos\\StoreApp\\Repositories\\EFCore\\BookRepository.cs",
-              "RelativeToolTip": "Repositories\\EFCore\\BookRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABUAAAA",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IT\\source\\repos\\StoreApp\\StoreApp\\Program.cs",
+              "RelativeDocumentMoniker": "StoreApp\\Program.cs",
+              "ToolTip": "C:\\Users\\IT\\source\\repos\\StoreApp\\StoreApp\\Program.cs",
+              "RelativeToolTip": "StoreApp\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAUwB8AAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T08:39:20.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T13:13:29.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "BookManager.cs",
+              "DocumentMoniker": "C:\\Users\\IT\\source\\repos\\StoreApp\\Services\\BookManager.cs",
+              "RelativeDocumentMoniker": "Services\\BookManager.cs",
+              "ToolTip": "C:\\Users\\IT\\source\\repos\\StoreApp\\Services\\BookManager.cs",
+              "RelativeToolTip": "Services\\BookManager.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T13:04:31.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "BookRepositoryExtensions.cs",
               "DocumentMoniker": "C:\\Users\\IT\\source\\repos\\StoreApp\\Repositories\\EFCore\\BookRepositoryExtensions.cs",
               "RelativeDocumentMoniker": "Repositories\\EFCore\\BookRepositoryExtensions.cs",
               "ToolTip": "C:\\Users\\IT\\source\\repos\\StoreApp\\Repositories\\EFCore\\BookRepositoryExtensions.cs",
               "RelativeToolTip": "Repositories\\EFCore\\BookRepositoryExtensions.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wCEAAAA6AAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwCsAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T08:39:07.151Z",
+              "WhenOpened": "2024-05-14T12:40:17.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IT\\source\\repos\\StoreApp\\Repositories\\EFCore\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EFCore\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\IT\\source\\repos\\StoreApp\\Repositories\\EFCore\\BookRepository.cs",
+              "RelativeToolTip": "Repositories\\EFCore\\BookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T12:40:12.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataShaper.cs",
+              "DocumentMoniker": "C:\\Users\\IT\\source\\repos\\StoreApp\\Services\\DataShaper.cs",
+              "RelativeDocumentMoniker": "Services\\DataShaper.cs",
+              "ToolTip": "C:\\Users\\IT\\source\\repos\\StoreApp\\Services\\DataShaper.cs",
+              "RelativeToolTip": "Services\\DataShaper.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA4wB4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T12:34:55.115Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDataShaper.cs",
+              "DocumentMoniker": "C:\\Users\\IT\\source\\repos\\StoreApp\\Services\\Contracts\\IDataShaper.cs",
+              "RelativeDocumentMoniker": "Services\\Contracts\\IDataShaper.cs",
+              "ToolTip": "C:\\Users\\IT\\source\\repos\\StoreApp\\Services\\Contracts\\IDataShaper.cs",
+              "RelativeToolTip": "Services\\Contracts\\IDataShaper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T12:31:51.525Z"
             }
           ]
         }

@@ -17,9 +17,12 @@ namespace Repositories.EFCore
                 await FindAll(trackChanges)
                 .FilterBooks(requestParameters.MinPrice, requestParameters.MaxPrice)
                 .Search(requestParameters.SearchTerm)
+                .Sort(requestParameters.OrderBy)
                 .ToListAsync() :
                 await FindAll(trackChanges)
                 .FilterBooks(requestParameters.MinPrice, requestParameters.MaxPrice)
+                .Search(requestParameters.SearchTerm)
+                .Sort(requestParameters.OrderBy)
                 .AsNoTracking()
                 .ToListAsync();
             return PagedList<Book>.ToPagedList(books, requestParameters.PageNumber, requestParameters.PageSize);

@@ -1,3 +1,4 @@
+using Entities.DataTransferObject;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Repositories.Contracts;
@@ -28,6 +29,7 @@ builder.Services.AddAutoMapper(typeof(Program));
 
 builder.Services.ConfigureRepository();
 builder.Services.ConfigureService();
+builder.Services.AddScoped<IDataShaper<BookDto>, DataShaper<BookDto>>();    
 
 var app = builder.Build();
 
